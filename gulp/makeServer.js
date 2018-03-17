@@ -17,6 +17,7 @@ module.exports = function() {
                     {
                         "name": "[name].[ext]",
                         "extensions": ["png", "jpg", "jpeg", "gif"],
+                        "publicPath": "static/images/",
                         "emitFile": false
                     }
                 ]
