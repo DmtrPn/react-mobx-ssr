@@ -2,7 +2,7 @@
   "name": "react-mobx-ssr",
   "version": "1.0.0",
   "scripts": {
-    "start": "PRG_ENV=dev node ./dist/server/app",
+    "start": "PRG_ENV=dev node ./build/server/app",
     "start-dev": "PRG_ENV=dev nodemon --delay 1000ms --watch build ./build/server/app",
     "build": "PRG_ENV=prod ./node_modules/.bin/gulp",
     "build-dev": "PRG_ENV=dev ./node_modules/.bin/gulp dev"
